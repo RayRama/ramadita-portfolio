@@ -1,10 +1,12 @@
 import { ScrollTop } from "@/components/scroll-top";
 
 import { Header } from "./components/header";
+import { Pattern } from "@/components/pattern";
 
 import { HeaderMotion } from "./components/header-motion";
-import { Pattern } from "@/components/pattern";
 import { Overview } from "./components/overview";
+import { SocialLinks } from "./components/social-links";
+import { About } from "./components/about";
 
 export const ProfilePage = () => {
   return (
@@ -17,7 +19,13 @@ export const ProfilePage = () => {
 
           <main>
             <Overview />
-            <div className="flex flex-col gap-4">Hello World</div>
+            <Pattern />
+
+            <SocialLinks />
+            <Pattern />
+
+            <About />
+            <Pattern />
           </main>
         </div>
       </div>

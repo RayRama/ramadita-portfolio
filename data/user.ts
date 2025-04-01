@@ -7,7 +7,7 @@ export const USER = {
   bio: "I am a software engineer",
   flipSentences: ["Full Stack Developer", "AI Engineer"],
   address: "Indramayu, Indonesia",
-  website: "https://ramadita.com",
+  website: "https://ramadita.vercel.app",
   jobTitle: "AI Engineer & Full Stack Developer",
   jobs: [
     {
@@ -21,7 +21,11 @@ export const USER = {
       website: "https://sequran.com",
     },
   ],
-  about: `Hello, I'm Ray Ramadita. I'm a software engineer with a passion for building products that help people live better lives. I'm currently the founder and CEO of NoorMind and Sequran.`,
+  about: `Hello, World! I'm Ray Ramadita, an AI Engineer & Full Stack Developer passionate about building impactful tech solutions. I specialize in Machine Learning and full-stack development (Next.js, MERN, Laravel) and hold a degree in Informatics Engineering from UIN Sunan Gunung Djati Bandung.
+
+  Previously, I founded and led [Sequran](https://sequran.com), an app that won Gold at the International Invention Competition for Young Muslim Scientists 2024. Now, I’m part of [Noormind](https://noormind.org) as an AI Engineer & Full Stack Developer, pushing the boundaries of AI and software development.
+  
+  Always excited to collaborate and innovate—let’s build something great together!`,
   avatar: "/avatar.png",
   ogImage: "/og-image.png",
   keywords: [
