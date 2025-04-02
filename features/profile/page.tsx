@@ -7,6 +7,7 @@ import { HeaderMotion } from "./components/header-motion";
 import { Overview } from "./components/overview";
 import { SocialLinks } from "./components/social-links";
 import { About } from "./components/about";
+import { TechStack } from "./components/tech-stack";
 
 export const ProfilePage = () => {
   return (
@@ -25,6 +26,9 @@ export const ProfilePage = () => {
             <Pattern />
 
             <About />
+            <Pattern />
+
+            <TechStack />
             <Pattern />
           </main>
         </div>

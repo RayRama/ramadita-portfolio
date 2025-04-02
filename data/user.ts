@@ -23,7 +23,7 @@ export const USER = {
   ],
   about: `Hello, World! I'm Ray Ramadita, an AI Engineer & Full Stack Developer passionate about building impactful tech solutions. I specialize in Machine Learning and full-stack development (Next.js, MERN, Laravel) and hold a degree in Informatics Engineering from UIN Sunan Gunung Djati Bandung.
 
-  Previously, I founded and led [Sequran](https://sequran.com), an app that won Gold at the International Invention Competition for Young Muslim Scientists 2024. Now, I’m part of [Noormind](https://noormind.org) as an AI Engineer & Full Stack Developer, pushing the boundaries of AI and software development.
+  Previously, I founded and led [Sequran](https://sequran.com), an app that won Gold at the International Invention Competition for Young Muslim Scientists 2024. Now, I’m part of [NoorMind](https://noormind.org) as an AI Engineer & Full Stack Developer, pushing the boundaries of AI and software development.
   
   Always excited to collaborate and innovate—let’s build something great together!`,
   avatar: "/avatar.png",
