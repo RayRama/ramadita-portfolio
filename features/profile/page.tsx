@@ -8,6 +8,11 @@ import { Overview } from "./components/overview";
 import { SocialLinks } from "./components/social-links";
 import { About } from "./components/about";
 import { TechStack } from "./components/tech-stack";
+import { Experiences } from "./components/experiences";
+import { Projects } from "./components/projects";
+import { Awards } from "./components/awards";
+import { Certifications } from "./components/certifications";
+import { Footer } from "@/components/footer";
 
 export const ProfilePage = () => {
   return (
@@ -30,7 +35,21 @@ export const ProfilePage = () => {
 
             <TechStack />
             <Pattern />
+
+            <Experiences />
+            <Pattern />
+
+            <Projects />
+            <Pattern />
+
+            <Awards />
+            <Pattern />
+
+            <Certifications />
+            <Pattern />
           </main>
+
+          <Footer />
         </div>
       </div>
 

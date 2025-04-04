@@ -2,7 +2,7 @@ export type Experience = {
   company: string;
   companyLogo?: string;
   companyUrl?: string;
-  position?: ExperiencePosition[];
+  positions: ExperiencePosition[];
   current?: boolean;
 };
 
@@ -19,7 +19,7 @@ export type ExperiencePosition = {
 
 export type ExperiencePositionIcon =
   | "code"
-  | "design"
+  | "research"
   | "education"
   | "business"
   | "school"

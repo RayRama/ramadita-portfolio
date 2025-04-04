@@ -1,0 +1,71 @@
+import { Project } from "../types/projects";
+
+export const PROJECTS: Project[] = [
+  {
+    id: "noormind-website",
+    title: "NoorMind",
+    description:
+      "NoorMind is an Islamic chatbot that can answer user questions based on the Quran, Sunnah, Hadith, and other reliable Islamic sources. It provides accurate and authentic Islamic knowledge through an interactive conversational interface.",
+    time: "2025 - Present",
+    link: "https://noormind.org",
+    tags: [
+      "Islamic",
+      "Education",
+      "Quran",
+      "Chatbot",
+      "NuxtJS",
+      "Tailwind CSS",
+      "TypeScript",
+      "Strapi 5",
+      "i18n - Internationalization",
+      "SSR - Server-Side Rendering",
+    ],
+  },
+  {
+    id: "sequran-website",
+    title: "Sequran",
+    description:
+      "Sequran is an Islamic search engine powered by AI that helps users find information about Islam from the Quran, Sunnah, and Hadith. It provides accurate and comprehensive Islamic knowledge through an intelligent search interface.",
+    time: "2024 - Present",
+    link: "https://sequran.com",
+    tags: [
+      "NuxtJS",
+      "Tailwind CSS",
+      "TypeScript",
+      "Strapi 5",
+      "Python",
+      "TensorFlow",
+      "Machine Learning",
+      "Natural Language Processing",
+      "Docker",
+      "REST API",
+      "AI/ML",
+      "Data Processing",
+    ],
+  },
+  {
+    id: "konektra-app",
+    title: "Konektra - Koneksi Tunarungu dan Tunawicara",
+    description:
+      "Konektra is a two-way communication platform designed to help users interact with deaf and speech-impaired friends. This project was developed as part of the final project for Bangkit Academy 2023 Batch 2.",
+    time: "2023",
+    link: "https://github.com/rayrama/konektra",
+    tags: [
+      "Android",
+      "Java",
+      "Jetpack Compose",
+      "Google Cloud Vision",
+      "TensorFlow",
+      "Image Processing",
+      "Machine Learning",
+      "Computer Vision",
+      "Google Cloud Platform",
+      "Firebase",
+      "REST API",
+      "AI/ML",
+      "Data Processing",
+      "Docker",
+      "CI/CD",
+    ],
+  },
+];

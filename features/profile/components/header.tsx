@@ -27,7 +27,7 @@ export function Header() {
         </div>
       </div>
 
-      <div className="screen-line-after flex border-x border-grid">
+      <div className="screen-line-after flex border-x border-grid items-center justify-center">
         <div className="shrink-0 border-r border-grid">
           <div className="mx-[2px] my-[3px]">
             <UserAvatar className="size-32 rounded-full ring-1 ring-border ring-offset-2 ring-offset-background sm:size-40" />

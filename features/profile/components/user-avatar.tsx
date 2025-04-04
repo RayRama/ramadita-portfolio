@@ -1,6 +1,6 @@
 import Image from "next/image";
 
-import ImgAvatar from "@/public/images/avatar.png";
+import ImgAvatar from "@/public/images/avatar.webp";
 import { USER } from "@/data/user";
 
 export function UserAvatar({

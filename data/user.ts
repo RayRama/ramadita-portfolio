@@ -26,7 +26,7 @@ export const USER = {
   Previously, I founded and led [Sequran](https://sequran.com), an app that won Gold at the International Invention Competition for Young Muslim Scientists 2024. Now, I’m part of [NoorMind](https://noormind.org) as an AI Engineer & Full Stack Developer, pushing the boundaries of AI and software development.
   
   Always excited to collaborate and innovate—let’s build something great together!`,
-  avatar: "/avatar.png",
+  avatar: "/avatar.webp",
   ogImage: "/og-image.png",
   keywords: [
     "Ray Ramadita",

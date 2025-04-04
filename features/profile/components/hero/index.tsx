@@ -11,11 +11,11 @@ export function Hero() {
     >
       <div className="absolute inset-0 flex flex-col items-center justify-center">
         <h2 className="mb-4 font-heading text-3xl md:text-4xl font-medium tracking-tight text-center">
-          What the fuck am I doing here?
+          Hello World!
         </h2>
-        <p className="max-w-2xl text-muted-foreground text-center">
-          Who these people? Who The Fuck Are You?
-        </p>
+        {/* <p className="max-w-2xl text-muted-foreground text-center">
+          &quot;Cogito, ergo sum&quot; - René Descartes
+        </p> */}
       </div>
     </div>
   );
