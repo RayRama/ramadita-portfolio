@@ -1,12 +1,12 @@
 import { useAtom } from "jotai";
 import { atomWithStorage } from "jotai/utils";
 
-export const packageManager = "pnpm" | "npm" | "yarn";
-export const installationType = "cli" | "manual";
+export type PackageManager = "pnpm" | "npm" | "yarn";
+export type InstallationType = "cli" | "manual";
 
 type Config = {
-  packageManager: packageManager;
-  installationType: installationType;
+  packageManager: PackageManager;
+  installationType: InstallationType;
 };
 
 const configAtom = atomWithStorage<Config>("ramadita.config", {

@@ -10,7 +10,7 @@ export function Nav({
   activeId,
 }: {
   className?: string;
-  activeId: string | null;
+  activeId?: string | null;
 }) {
   return (
     <nav

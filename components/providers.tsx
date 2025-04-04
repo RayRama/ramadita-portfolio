@@ -21,7 +21,7 @@ export function Providers({ children }: { children: React.ReactNode }) {
           options={{
             showSpinner: false,
           }}
-          height={2}
+          height="45px"
           delay={500}
         >
           {children}

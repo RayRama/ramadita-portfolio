@@ -1,5 +1,5 @@
 export const USER = {
-  firstname: "Ray",
+  firstName: "Ray",
   lastName: "Ramadita",
   email: "cmF5cmFtYWRpdGExMkBnbWFpbC5jb20=", // base64 encoded email to prevent spam
   displayName: "Ray Ramadita",
