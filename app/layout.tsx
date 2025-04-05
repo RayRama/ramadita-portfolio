@@ -3,6 +3,7 @@ import type { Metadata, Viewport } from "next";
 
 import { Providers } from "@/components/providers";
 import { META_THEME_COLORS, SITE_INFO } from "@/config/site";
+import GoogleAnalytics from "@/components/GoogleAnalytics";
 
 import { USER } from "@/data/user";
 
@@ -84,7 +85,14 @@ export default function RootLayout({
       </head>
 
       <body>
-        <Providers>{children}</Providers>
+        <Providers>
+          {process.env.NEXT_PUBLIC_GA_MEASUREMENT_ID && (
+            <GoogleAnalytics
+              GA_MEASUREMENT_ID={process.env.NEXT_PUBLIC_GA_MEASUREMENT_ID}
+            />
+          )}
+          {children}
+        </Providers>
       </body>
     </html>
   );

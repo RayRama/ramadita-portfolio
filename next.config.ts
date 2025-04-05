@@ -6,7 +6,8 @@ import bundleAnalyzer from "@next/bundle-analyzer";
 declare global {
   namespace NodeJS {
     interface ProcessEnv {
-      APP_URL: string;
+      NEXT_PUBLIC_APP_URL: string;
+      NEXT_PUBLIC_GA_MEASUREMENT_ID: string;
       ANALYZE?: string;
     }
   }

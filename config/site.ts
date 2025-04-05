@@ -3,7 +3,7 @@ import { USER } from "@/data/user";
 export const SITE_INFO = {
   name: USER.displayName,
   description: USER.bio,
-  url: USER.website || process.env.APP_URL,
+  url: USER.website || process.env.NEXT_PUBLIC_APP_URL,
   ogImage: USER.ogImage,
   keywords: USER.keywords,
 };
